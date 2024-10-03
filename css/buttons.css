@@ -1,0 +1,32 @@
+button {
+	background: url("../img/ui/limestone.jpg");
+	border-radius: .25rem;
+	border: 2px solid gold;
+	cursor: pointer;
+	margin-top: .2rem;
+	margin-bottom: .2rem;
+	padding: .25rem;
+}
+
+button:hover {
+	background: url("../img/ui/limestone_light.jpg");
+}
+
+button:disabled {
+	background: url("../img/ui/limestone_dark.jpg");
+	color: transparent;
+	border-color: darkblue;
+}
+
+.title-buttons {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 4rem;
+}
+
+.title-button {
+	margin-top: 1.25rem;
+	width: 10rem;
+}

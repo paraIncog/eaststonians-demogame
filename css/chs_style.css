@@ -1,0 +1,56 @@
+.chs-page {
+	display: flex;
+	flex-direction: row;
+	margin-top: 4rem;
+}
+
+/* Choices left/right */
+
+.choice-maker, .results-courier {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 45%;
+}
+
+.chs-rslt-div {
+	border: 1px solid gold;
+	margin-top: 3rem;
+}
+
+#choices-area {
+	margin-top: 2rem;
+	width: 90%;
+}
+
+button.choice {
+	font-size: 1.25rem;
+	height: 3rem;
+	width: 100%;
+}
+
+.chs-story {
+	font-size: 2rem;
+	margin-top: 1rem;
+	width: 90%;
+}
+
+.chs-pic-container {
+	align-items: center;
+	background-color: silver;
+	border: 5px solid silver;
+	margin-top: 5rem;
+}
+
+.chs-pic {
+	height: 20rem;
+	width: 30rem;
+}
+
+.recent-choice {
+	color: gray;
+	font-size: 2rem;
+	width: 90%;
+}

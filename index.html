@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/loadingpage_style.css">
+
+	<link rel="stylesheet" href="./css/buttons.css">
+	<link rel="stylesheet" href="./css/csnarr_style.css">
+	<link rel="stylesheet" href="./css/chs_style.css">
+	<link rel="stylesheet" href="./css/aboutpage_style.css">
+
+	<title>Aestonia: First Contact - Demo</title>
+</head>
+<body>
+	<!-- <div id="debug-pages"></div> -->
+	<div id="main-content"></div>
+	<div id="meta-data"></div>
+</body>
+
+<script src="./pages/loadingPage.js"></script>
+<script src="./pages/mainMenu.js"></script>
+
+<script src="./pages/aboutPage.js"></script>
+
+<script src="./narration/firstNarr_0.js"></script>
+<script src="./narration/firstNarr_1.js"></script>
+<script src="./narration/firstNarr_2.js"></script>
+
+<script src="./narration/choices/chs_0.js"></script>
+<script src="./narration/choices/chs_1.js"></script>
+
+<script src="./narration/endings/end_0.js"></script>
+<script src="./narration/endings/end_1.js"></script>
+<script src="./narration/endings/end_2.js"></script>
+
+
+<script src="./scripts/endScript.js"></script>
+<script src="./pages/ty_msg.js"></script>
+
+<script>
+	const mainContent = document.getElementById("main-content");
+	loadingPage()
+	setTimeout(() => {
+		mainMenu();
+  	}, 2000);
+
+	let end0Done = false;
+	let end1Done = false;
+	let end2Done = false;
+  
+</script>
+
+</html>

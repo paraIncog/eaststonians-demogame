@@ -1,0 +1,64 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#debug-pages {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+}
+
+#debug-list {
+	display: flex;
+}
+
+#main-content {
+	width: 100%;
+}
+
+.title-page {
+	margin-top: 15rem;
+}
+
+.title-page, .end-page {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.end-page {
+	margin-top: 5rem;
+}
+
+.title-logo {
+	width: 25rem;
+	height: 10rem;
+}
+
+#meta-data {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	padding: 2rem;
+	font-size: 2rem;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.ty-msg {
+	letter-spacing: .075rem;
+	line-height: 2rem;
+	text-indent: 2rem;
+	margin-bottom: .5rem;
+	margin-top: .5rem;
+	width: 60%;
+}

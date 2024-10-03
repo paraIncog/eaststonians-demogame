@@ -1,0 +1,20 @@
+{
+  "name": "gameetest",
+  "version": "1.0.0",
+  "description": "A choice-based game about 13th Century Estonia, where the people were at war with conquerors.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

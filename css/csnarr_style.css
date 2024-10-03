@@ -1,0 +1,41 @@
+.cs-narr-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cs-narr-pic-container {
+	margin-top: 5rem;
+	background-color: silver;
+	border: 5px solid silver;
+}
+
+.cs-narr-pic {
+	height: 20rem;
+	width: 30rem;
+}
+
+.title-page {
+	margin-top: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.cs-narr-story {
+	font-size: 2rem;
+	margin-top: 2rem;
+	text-align: center;
+	width: 70%;
+}
+
+.cs-narr-cont-button {
+	margin-top: 1rem;
+}
+
+.cs-narr-skip-button {
+	color: gray;
+	cursor: pointer;
+	margin-top: 1rem;
+}
