@@ -2,6 +2,8 @@
 
 A choice-based game about 13th Century Estonia, where the people were at war with conquerors.
 
+## Contents
+
 ## Installation
 
 Install mproject with npm
@@ -42,3 +44,18 @@ Start the server (Developer)
 ```bash
   npm run dev
 ```
+
+## Technical
+
+### Made in:
+Microsoft Visual Studio Code
+
+### Programming Languages Used:
+HTML, CSS, JavaScript
+
+### Fonts Used:
+[Old London](https://www.dafont.com/old-london.font)
+
+## Author
+
+Andreas Selge
