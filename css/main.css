@@ -18,10 +18,6 @@
 	width: 100%;
 }
 
-.title-page {
-	margin-top: 15rem;
-}
-
 .title-page, .end-page {
 	align-items: center;
 	display: flex;
@@ -32,11 +28,6 @@
 
 .end-page {
 	margin-top: 5rem;
-}
-
-.title-logo {
-	width: 25rem;
-	height: 10rem;
 }
 
 #meta-data {

@@ -1,0 +1,37 @@
+.title-page {
+	margin-top: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.title-logo {
+	width: 25rem;
+	height: 10rem;
+	font-family: 'airyin';
+	font-size: 3rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.demo-marker {
+	background: url(../img/ui/limestone.jpg);
+	color: #534d44;
+	width: 10rem;
+	border-radius: 1rem;
+}
+
+.title-buttons {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 4rem;
+}
+
+.title-button {
+	margin-top: 1.25rem;
+	width: 10rem;
+}

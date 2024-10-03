@@ -3,6 +3,11 @@
 	src: url(../fonts/old_london/OldLondon.ttf);
 }
 
+@font-face {
+	font-family: "airyin";
+	src: url(../fonts/airyin/Airyin.otf);
+}
+
 body {
 	background-color: black;
 	color: white;

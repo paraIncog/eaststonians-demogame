@@ -51,10 +51,13 @@ Start the server (Developer)
 Microsoft Visual Studio Code
 
 ### Programming Languages Used:
-HTML, CSS, JavaScript
+* HTML
+* CSS
+* JavaScript
 
 ### Fonts Used:
-[Old London](https://www.dafont.com/old-london.font)
+* [Old London](https://www.dafont.com/old-london.font)
+* [Airyin](https://www.dafont.com/airyin.font)
 
 ## Author
 
