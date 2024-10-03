@@ -26,8 +26,7 @@
 }
 
 button.choice {
-	/* font-size: 1.25rem; */
-	height: 3rem;
+	font-size: 1.25rem;
 	width: 100%;
 }
 
