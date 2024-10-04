@@ -8,11 +8,11 @@ function firstNarr_0() {
 
 			"At the beginning, there were Saxons, Latgalians, Lithuanians, Kievans, and Aestis."
 
-		</div>
-		<div class="cs-narr-cont-button">
-			<button onclick="firstNarr_1()">
-				Continue
-			</button>
+			<div class="cs-narr-cont-button">
+				<button onclick="firstNarr_1()">
+					Continue
+				</button>
+			</div>
 		</div>
 	</div>
 	`;

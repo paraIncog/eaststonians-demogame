@@ -8,11 +8,11 @@ function firstNarr_2() {
 
 			"The Teutons, already planned crusade to "liberate" the land from "pagans", so they can be educated on the past of their covenant with the God."
 
-		</div>
-		<div class="cs-narr-cont-button">
-			<button onclick="chs_0()">
-				Continue
-			</button>
+			<div class="cs-narr-cont-button">
+				<button onclick="chs_0()">
+					Continue
+				</button>
+			</div>
 		</div>
 	</div>
 	`;

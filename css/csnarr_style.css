@@ -5,9 +5,13 @@
 }
 
 .cs-narr-pic-container {
-	margin-top: 5rem;
+	/* margin-top: 5rem; */
 	background-color: silver;
 	border: 5px solid silver;
+	/* max-height: 674px; */
+	position: absolute;
+	align-content: center;
+	top: 10%;
 }
 
 .cs-narr-pic {
@@ -17,8 +21,9 @@
 
 .cs-narr-story {
 	font-size: 2rem;
-	margin-top: 2rem;
+	bottom: 4rem;
 	text-align: center;
+	position: absolute;
 	width: 70%;
 }
 

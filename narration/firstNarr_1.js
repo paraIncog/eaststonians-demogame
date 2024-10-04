@@ -8,11 +8,11 @@ function firstNarr_1() {
 
 			"But then, the conquerors - Danes, Novgorodians, and Germans - looking into the Baltics, saw a world of opportunities."
 
-		</div>
-		<div class="cs-narr-cont-button">
-			<button onclick="firstNarr_2()">
-				Continue
-			</button>
+			<div class="cs-narr-cont-button">
+				<button onclick="firstNarr_2()">
+					Continue
+				</button>
+			</div>
 		</div>
 	</div>
 	`;
