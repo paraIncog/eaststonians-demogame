@@ -6,7 +6,7 @@ function firstNarr_0() {
 		</div>
 		<div class="cs-narr-story">
 
-			"At the beginning, there were Saxons, Latgalians, Lithuanians, Kievans, and Aestis."
+			"At the beginning, there were Saxons, Latgalians, Lithuanians, Kievans, and <span class="eastston-blue">Aestis</span>."
 
 			<div class="cs-narr-cont-button">
 				<button onclick="firstNarr_1()">
