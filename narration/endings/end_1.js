@@ -10,12 +10,17 @@ function end_1() {
 				</button>
 			</div>
 
-			"In fear of being besieged, the Crusaders and Aestonians agreed on a border. But to appease God, the Crusaders brought more divisions to the border,
-			<span></span> just in case if Aestonians need special pontifical operation."
+			"In fear of being besieged, a border was agreed upon. But to appease The Greatest, Crusaders brought more divisions to the border,
+			<span></span> just in case if the opposers need special pontifical operation."
 
 		</div>
 		<div class="end-img-container">
 			<img class="end-img" src="./img/endings/ancient_boundaries_4.png" alt="narrative pic" />
+
+			<!-- Path is extended further, installed fences, borderposts, and border guards.
+			On estonian side: cornflower and barnswallow, and a limestone "hill";
+			Latvian side: oxeye daisy.; -->
+			<!-- <img class="end-img" src="./img/end_img/border_est_liv.png" alt="Estonia-Livonia Border" /> -->
 		</div>
 	</div>
 	`;

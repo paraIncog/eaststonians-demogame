@@ -1,11 +1,11 @@
 function chs_0() {
 	mainContent.innerHTML = `
 	<div class="chs-page">
-		<div class="choice-maker"> <!-- German Choices -->
+		<div class="choice-maker">
 			<div id="choices-area">
 				<div id="choice1" class="choice-button">
 					<button class="choice" onclick="end_0()">
-						Let's go back to Riga. Leave them be.
+						Let's go back to Riga!
 					</button>
 				</div>
 				<div id="choice2" class="choice-button">
@@ -15,22 +15,22 @@ function chs_0() {
 				</div>
 			</div>
 			<div class="chs-story">
-				You have entered into Aestonian lands.
+				You have entered the Eastern Lands.
 			</div>
-			<!-- <div class="chs-pic-container">
-				<img src="./img/csh_pics/teutonic_order.png" alt="choices pic" class="chs-pic" />
-			</div> -->
 		</div>
 
 		<!-- Choices/Results Divider -->
 		<div class="chs-rslt-div"></div>
 
-		<div class="results-courier"> <!-- Estonian Results -->
+		<div class="results-courier">
 			<div class="chs-story">
-			"You are not welcome here."
+			"Not to be rude, but I'm warning you: You're not welcome there."
 			</div>
 			<div class="chs-pic-container">
 				<img src="./img/csh_pics/ancient_estonia.png" alt="results pic" class="chs-pic" />
+
+				<!-- Paved path road towards forest, and latvian guy standing next to it -->
+				<!-- <img class="chs-img" src="./img/chs_img/ending_path.png" alt="Ending of the path" /> -->
 			</div>
 		</div>
 	`;

@@ -10,13 +10,16 @@ function end_2() {
 				</button>
 			</div>
 
-			"Aestonians did many. Firstly, God's army was wiped out; Secondly, in favor of true peace, the Balts joined together to push Crusaders back
-			<span></span> to Poland and Brandenburg. And finally, Balts agreed upon forming a Baltic Confederation, so that
-			<span></span> they would no longer be threatened by anyone."
+			"But they did many. Firstly, God's army was wiped out; Secondly, in favor of true peace, the Balts joined together to push Crusaders back
+			<span></span> to Flatlands and Wildfire. And finally, t'was agreed upon forming a confederation, so that
+			<span></span> there would be no threats ever again."
 
 		</div>
 		<div class="end-img-container">
 			<img class="end-img" src="./img/endings/ancient_boundaries_5.png" alt="narrative pic" />
+
+			<!-- Map. Representing estonia: wolf, herrings in mouth. Representing latvia: hedgehog. Representing lithuania: white stork. -->
+			<!-- <img class="end-img" src="./img/end_img/balt_conf.png" alt="Baltic Confederacy" /> -->
 		</div>
 	</div>
 	`;

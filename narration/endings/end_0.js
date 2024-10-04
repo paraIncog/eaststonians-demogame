@@ -10,11 +10,15 @@ function end_0() {
 				</button>
 			</div>
 
-			"Crusaders left Aestonian lands back to Riga. The command from God discarded, papal orders burnt, now the military has truly become the State."
+			"The Crusaders left the Eastern Lands and returned to Riga. With God's command discarded and papal orders burned,
+			<span></span> the military had now truly become the State."
 
 		</div>
 		<div class="end-img-container">
 			<img class="end-img" src="./img/endings/livonian_war_flag.png" alt="narrative pic" />
+
+			<!-- Livonian war flag on a castle -->
+			<!-- <img class="end-img" src="./img/end_img/castle_liv_war_flag.png" alt="Livonian War Flag on Castle" /> -->
 		</div>
 	</div>
 	`;
