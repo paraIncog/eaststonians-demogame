@@ -27,12 +27,3 @@
 	font-size: 2rem;
 	color: rgba(255, 255, 255, 0.5);
 }
-
-.ty-msg {
-	letter-spacing: .075rem;
-	line-height: 2rem;
-	text-indent: 2rem;
-	margin-bottom: .5rem;
-	margin-top: .5rem;
-	width: 60%;
-}

@@ -1,6 +1,6 @@
 function ty_msg() {
 	mainContent.innerHTML = `
-	<div class="end-page">
+	<div class="ty-page">
 		<div class="ty-msg">
 			Thank you for playing the demo of the placeholder name game (yes, a placeholder). I wanted to do something just after summer.
 			Didn't want to do anything strategic map game, or mod a game to simulate that era of Estonian history (because there are already too many of these games).
