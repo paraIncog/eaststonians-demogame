@@ -5,13 +5,9 @@
 }
 
 .cs-narr-pic-container {
-	/* margin-top: 5rem; */
-	background-color: silver;
-	border: 5px solid silver;
-	/* max-height: 674px; */
 	position: absolute;
 	align-content: center;
-	top: 10%;
+	top: 15%;
 }
 
 .cs-narr-pic {
