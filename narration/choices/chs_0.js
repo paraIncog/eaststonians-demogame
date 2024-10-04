@@ -26,14 +26,11 @@ function chs_0() {
 		<div class="chs-rslt-div"></div>
 
 		<div class="results-courier"> <!-- Estonian Results -->
-			<div class="recent-choice">
-				No choices made yet
+			<div class="chs-story">
+			"You are not welcome here."
 			</div>
 			<div class="chs-pic-container">
 				<img src="./img/csh_pics/ancient_estonia.png" alt="results pic" class="chs-pic" />
-			</div>
-			<div class="chs-story">
-				"You are not welcome here."
 			</div>
 		</div>
 	`;

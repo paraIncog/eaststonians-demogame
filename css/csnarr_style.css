@@ -2,6 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	opacity: 0;
+	animation: fadeIn 2s forwards;
 }
 
 .cs-narr-pic-container {
@@ -21,14 +23,6 @@
 	text-align: center;
 	position: absolute;
 	width: 70%;
-	opacity: 0;
-	animation: fadeIn 2s forwards;
-}
-
-@keyframes fadeIn {
-	to {
-		opacity: 1;
-	}
 }
 
 .cs-narr-cont-button {
