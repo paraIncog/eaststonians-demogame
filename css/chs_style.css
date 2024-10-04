@@ -1,9 +1,12 @@
 .chs-page {
+	position: absolute;
 	display: flex;
 	flex-direction: row;
-	margin-top: 4rem;
+	top: 20%;
 	opacity: 0;
 	animation: fadeIn 2s forwards;
+	justify-content: center;
+	width: 95%;
 }
 
 /* Choices left/right */
