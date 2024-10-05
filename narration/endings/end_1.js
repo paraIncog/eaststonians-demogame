@@ -1,11 +1,13 @@
-function end_1() {
-	end1Done = true;
+import { mainMenu } from "../../pages/mainMenu.js";
+
+export function end_1() {
+	const mainContent = document.getElementById("main-content");
 	mainContent.innerHTML = `
 	<div class="end-page">
 		<div class="end-msg">
 
 			<div class="end-cont-btn">
-				<button onclick="endsDoneCount()">
+				<button id="cont-btn">
 					Continue
 				</button>
 			</div>
@@ -24,4 +26,6 @@ function end_1() {
 		</div>
 	</div>
 	`;
+	const contBtn = document.getElementById("cont-btn");
+    contBtn.addEventListener("click", mainMenu);
 }

@@ -1,15 +1,16 @@
-function chs_1() {
+export function chs_1() {
+	const mainContent = document.getElementById("main-content");
 	mainContent.innerHTML = `
 	<div class="chs-page">
 		<div class="choice-maker">
 			<div id="choices-area">
 				<div id="choice1" class="choice-button">
-					<button class="choice" onclick="end_1()">
+					<button class="choice" onclick="end_1()" id="choice1">
 						On the other hand, there might be many of them.
 					</button>
 				</div>
 				<div id="choice2" class="choice-button">
-					<button class="choice" onclick="end_2()">
+					<button class="choice" onclick="end_2()" id="choice2">
 						East-stonians.. What they gon' do 'bout it?
 					</button>
 				</div>
@@ -34,4 +35,10 @@ function chs_1() {
 			</div>
 		</div>
 	`;
+
+	const choice1 = document.getElementById("choice1");
+    choice1.addEventListener("click", end_1);
+	
+	const choice2 = document.getElementById("choice2");
+    choice2.addEventListener("click", end_2);
 }
