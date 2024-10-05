@@ -1,3 +1,5 @@
+import { aboutPage } from "./aboutPage.js";
+
 export function mainMenu() {
 	const mainContent = document.getElementById("main-content");
 	mainContent.innerHTML = `
@@ -14,11 +16,14 @@ export function mainMenu() {
 				</div>
 
 				<div>
-					<button class="title-button" onclick="aboutPage()">About</button>
+					<button class="title-button" id="about-page">About</button>
 				</div>
 			</div>
 		</div>
 	`;
+	
 	const playButton = document.getElementById("play-button");
     playButton.addEventListener("click", firstNarr_0);
+	const aboutButton = document.getElementById("about-page");
+    aboutButton.addEventListener("click", aboutPage);
 }
