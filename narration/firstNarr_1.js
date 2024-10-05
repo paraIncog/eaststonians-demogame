@@ -1,4 +1,5 @@
-function firstNarr_1() {
+export function firstNarr_1() {
+	const mainContent = document.getElementById("main-content");
 	mainContent.innerHTML = `
 	<div class="cs-narr-page">
 		<div class="cs-narr-pic-container">
@@ -12,11 +13,13 @@ function firstNarr_1() {
 			"But then, conquerors - the Kalmarians, Hoarders, and Teutons - looked toward the Baltics and saw a world of opportunities."
 
 			<div class="cs-narr-cont-button">
-				<button onclick="firstNarr_2()">
+				<button id="next-narr">
 					Continue
 				</button>
 			</div>
 		</div>
 	</div>
 	`;
+	const nextNarr = document.getElementById("next-narr");
+    nextNarr.addEventListener("click", firstNarr_2);
 }

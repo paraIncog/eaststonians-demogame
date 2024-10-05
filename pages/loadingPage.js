@@ -1,4 +1,6 @@
-function loadingPage() {
+export function loadingPage() {
+	const mainContent = document.getElementById("main-content");
+
 	mainContent.innerHTML = `
 	<div class="loading-page">
 		<div id="sprite">

@@ -1,4 +1,5 @@
-function firstNarr_0() {
+export function firstNarr_0() {
+	const mainContent = document.getElementById("main-content");
 	mainContent.innerHTML = `
 	<div class="cs-narr-page">
 		<div class="cs-narr-pic-container">
@@ -12,11 +13,13 @@ function firstNarr_0() {
 			"In the beginning, there were the Saxons, Latgalians, Samogitians, Kievans, and <span class="eastston-blue">East-stonians</span>."
 
 			<div class="cs-narr-cont-button">
-				<button onclick="firstNarr_1()">
+				<button id="next-narr">
 					Continue
 				</button>
 			</div>
 		</div>
 	</div>
 	`;
+	const nextNarr = document.getElementById("next-narr");
+    nextNarr.addEventListener("click", firstNarr_1);
 }

@@ -1,9 +1,4 @@
-/*
-	Reached Ending 2
-	End Screens Done 2/3
-*/
-
-function endsDoneCount() {
+export function endsDoneCount() {
 	if (end0Done && end1Done && end2Done) {
 		ty_msg();
 	} else {

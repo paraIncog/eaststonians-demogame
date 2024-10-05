@@ -1,4 +1,5 @@
-function firstNarr_2() {
+export function firstNarr_2() {
+	const mainContent = document.getElementById("main-content");
 	mainContent.innerHTML = `
 	<div class="cs-narr-page">
 		<div class="cs-narr-pic-container">
@@ -13,11 +14,13 @@ function firstNarr_2() {
 			<span></span> intending to educate them on their 'covenant with God'."
 
 			<div class="cs-narr-cont-button">
-				<button onclick="chs_0()">
+				<button id="next-narr">
 					Continue
 				</button>
 			</div>
 		</div>
 	</div>
 	`;
+	const nextNarr = document.getElementById("next-narr");
+    nextNarr.addEventListener("click", chs_0);
 }

@@ -1,4 +1,4 @@
-function ty_msg() {
+export function ty_msg() {
 	mainContent.innerHTML = `
 	<div class="ty-page">
 		<div class="ty-msg">

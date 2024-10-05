@@ -1,4 +1,4 @@
-function mainMenu() {
+export function mainMenu() {
 	const mainContent = document.getElementById("main-content");
 	mainContent.innerHTML = `
 		<div class="title-page">
@@ -10,7 +10,7 @@ function mainMenu() {
 
 			<div class="title-buttons">
 				<div>
-					<button class="title-button" onclick="firstNarr_0()">Play</button>
+					<button class="title-button" id="play-button">Play</button>
 				</div>
 
 				<div>
@@ -19,4 +19,6 @@ function mainMenu() {
 			</div>
 		</div>
 	`;
+	const playButton = document.getElementById("play-button");
+    playButton.addEventListener("click", firstNarr_0);
 }

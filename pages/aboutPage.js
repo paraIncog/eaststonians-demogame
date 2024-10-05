@@ -1,4 +1,4 @@
-function aboutPage() {
+export function aboutPage() {
 	mainContent.innerHTML = `
 	<div class="title-page">
 		<div class="about-game">
