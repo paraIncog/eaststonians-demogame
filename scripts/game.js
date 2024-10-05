@@ -2,7 +2,6 @@
 import { loadingPage } from "../pages/loadingPage.js";
 import { mainMenu } from "../pages/mainMenu.js";
 import { aboutPage } from "../pages/aboutPage.js";
-import { ty_msg } from "../pages/ty_msg.js";
 
 // Narrative (for demo it is just intro)
 import { firstNarr_0 } from "../narration/firstNarr_0.js";
