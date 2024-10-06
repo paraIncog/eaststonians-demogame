@@ -5,12 +5,12 @@ export function chs_1() {
 		<div class="choice-maker">
 			<div id="choices-area">
 				<div id="choice1" class="choice-button">
-					<button class="choice" onclick="end_1()" id="choice1">
+					<button class="choice" id="choice1">
 						On the other hand, there might be many of them.
 					</button>
 				</div>
 				<div id="choice2" class="choice-button">
-					<button class="choice" onclick="end_2()" id="choice2">
+					<button class="choice" id="choice2">
 						East-stonians.. What they gon' do 'bout it?
 					</button>
 				</div>
@@ -23,7 +23,7 @@ export function chs_1() {
 		<!-- Choices/Results Divider -->
 		<div class="chs-rslt-div"></div>
 
-		<div class="results-courier"> <!-- Estonian Results -->
+		<div class="results-courier">
 			<div class="chs-story">
 				"Only warned ya'. Good luck!"
 			</div>

@@ -1,17 +1,17 @@
 export const narrData = [
 	{
 		narrNr: 0,
-		narrImg: 'ancient_boundaries.png',
-		narrStory: `"At the beginning, there were Saxons, Latgalians, Lithuanians, Kievans, and <span class="eastston-blue">Aestis</span>."`
+		narrImg: 'ancient_terr_map.png',
+		narrStory: `"In the beginning, there were the Saxons, Latgalians, Samogitians, Kievans, and <span class="eastston-blue">East-stonians</span>."`
 	},
 	{
 		narrNr: 1,
-		narrImg: 'ancient_boundaries_2.png',
-	  	narrStory: '"But then, the conquerors - Danes, Novgorodians, and Germans - looking into the Baltics, saw a world of opportunities."'
+		narrImg: 'ancient_polit_map.png',
+	  	narrStory: `"But then, conquerors - the Kalmarians, Hoarders, and Teutons - looked toward the Baltics and saw a world of opportunities."`
 	},
 	{
 		narrNr: 2,
-		narrImg: 'ancient_boundaries_3.png',
-	  	narrStory: '"The Teutons, already planned crusade to "liberate" the land from "pagans", so they can be educated on the past of their covenant with the God."'
+		narrImg: 'ancient_polit_map_teared.png',
+	  	narrStory: `"The Teutons, with the Livonian Brothers of the Sword, had already planned a crusade to 'liberate' the land from 'pagans', intending to educate them on their 'covenant with God'."`
 	}
 ];

@@ -23,7 +23,7 @@ export function mainMenu() {
 	`;
 	
 	const playButton = document.getElementById("play-button");
-    playButton.addEventListener("click", firstNarr_0);
+    playButton.addEventListener("click", narr_0);
 	const aboutButton = document.getElementById("about-page");
     aboutButton.addEventListener("click", aboutPage);
 }

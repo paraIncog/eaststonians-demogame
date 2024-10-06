@@ -5,12 +5,12 @@ export function chs_0() {
 		<div class="choice-maker">
 			<div id="choices-area">
 				<div id="choice1" class="choice-button">
-					<button class="choice" onclick="end_0()" id="choice1">
+					<button class="choice" id="choice1">
 						Let's go back to Riga!
 					</button>
 				</div>
 				<div id="choice2" class="choice-button">
-					<button class="choice" onclick="chs_1()" id="choice2">
+					<button class="choice" id="choice2">
 						That will not stand. Deus Vult!
 					</button>
 				</div>
