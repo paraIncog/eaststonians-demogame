@@ -1,4 +1,5 @@
 import { narrData } from "../../narration/narrData.js";
+import { chsTemp } from "./chsTemp.js";  // Import chsTemp to handle choices
 
 export function narrTemp(narrID) {
     const narr = narrData[narrID];
@@ -24,7 +25,7 @@ export function narrTemp(narrID) {
         if (nextNarrID < narrData.length) {
           narrTemp(nextNarrID);
         } else {
-          chs_0();
+          chsTemp(0);
         }
     });
 }
