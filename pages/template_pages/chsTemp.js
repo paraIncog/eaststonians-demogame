@@ -1,4 +1,5 @@
 import { chsData } from "../../narration/chsData.js";
+import { endTemp } from "./endTemp.js";  // Import endTemp for handling endings
 
 export function chsTemp(chsID) {
 	const chs = chsData[chsID];
@@ -40,25 +41,24 @@ export function chsTemp(chsID) {
 		</div>
 	`;
 	
-	// Define the logic for choice buttons
-	const choice1 = document.getElementById("choice1");
-	choice1.addEventListener("click", () => {
-		// Handle choice 1 logic, e.g., go to next narrative or ending
-		if (chs.nextChoice1 !== undefined) {
-			chsTemp(chs.nextChoice1);  // Go to the next choice based on data
-		} else {
-			end_0();  // or other action based on the game flow
-		}
-	});
-	
-	const choice2 = document.getElementById("choice2");
-	choice2.addEventListener("click", () => {
-		// Handle choice 2 logic
-		if (chs.nextChoice2 !== undefined) {
-			chsTemp(chs.nextChoice2);
-		} else {
-			end_1();  // or other action
-		}
+	// Handle choice 1
+    const choice1 = document.getElementById("choice1");
+    choice1.addEventListener("click", () => {
+        if (chs.nextChoice1.startsWith("end")) {
+            endTemp(parseInt(chs.nextChoice1.slice(-1)));  // Go to the specified ending
+        } else {
+            chsTemp(parseInt(chs.nextChoice1.match(/\d+/)[0]));  // Go to the next choice
+        }
+    });
+
+    // Handle choice 2
+    const choice2 = document.getElementById("choice2");
+    choice2.addEventListener("click", () => {
+        if (chs.nextChoice2.startsWith("end")) {
+            endTemp(parseInt(chs.nextChoice2.slice(-1)));  // Go to the specified ending
+        } else {
+            chsTemp(parseInt(chs.nextChoice2.match(/\d+/)[0]));  // Go to the next choice
+        }
 	});
 }
 	

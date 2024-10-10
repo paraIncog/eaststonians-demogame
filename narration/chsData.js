@@ -6,8 +6,8 @@ export const chsData = [
 		chsStory1: `You have entered the Eastern Lands.`,
 		chsStory2: `"Not to be rude, but I'm warning you: You're not welcome there."`,
 		chsImg: `ending_path.png`,
-		nextChoice1: undefined,  // This could be an ending function or another choice ID
-		nextChoice2: 1  // Leads to choice 1
+		nextChoice1: "end_0",  // This could be an ending function or another choice ID
+		nextChoice2: "chsTemp(1)"  // Leads to choice 1
 	},
 	{
 		chsNr: 1,
@@ -16,7 +16,7 @@ export const chsData = [
 		chsStory1: `For The Greatest, we shall liberate the land from pagans!`,
 		chsStory2: `"Only warned ya'. Good luck!"`,
 		chsImg: `end_of_path.png`,
-		nextChoice1: undefined,  // Leads to ending or another scene
-		nextChoice2: undefined   // Leads to ending or another scene
+		nextChoice1: "end_1",  // Leads to ending or another scene
+		nextChoice2: "end_2"   // Leads to ending or another scene
 	}
 ];
