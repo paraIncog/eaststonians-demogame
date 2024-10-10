@@ -3,13 +3,7 @@ import { loadingPage } from "../pages/loadingPage.js";
 import { mainMenu } from "../pages/mainMenu.js";
 import { aboutPage } from "../pages/aboutPage.js";
 
-// Narrative (for demo it is just intro)
-import { narr_0 } from "../narration/narr_0.js";
-window.narr_0 = narr_0;
-import { narr_1 } from "../narration/narr_1.js";
-window.narr_1 = narr_1;
-import { narr_2 } from "../narration/narr_2.js";
-window.narr_2 = narr_2;
+import { narrTemp } from "../pages/template_pages/narrTemp.js";
 
 // Choices
 import { chs_0 } from "../narration/choices/chs_0.js";
