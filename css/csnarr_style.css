@@ -6,15 +6,15 @@
 	animation: fadeIn 2s forwards;
 }
 
-.narr-pic-container {
+.narr-img-container {
 	position: absolute;
 	align-content: center;
 	top: 15%;
 }
 
-.narr-pic {
-	height: 20rem;
-	width: 30rem;
+.narr-img {
+	height: 400px;
+	width: 600px;
 }
 
 .narr-story {
