@@ -4,15 +4,11 @@ export const endData = [
         endStory: `"The Crusaders left the Eastern Lands and returned to Riga. With God's command discarded and papal orders burned, 
                    the military had now truly become the State."`,
         endImg: "castle_liv_war_flag.png"
-        // Livonian war flag on a castle
     },
     {
         endNr: 1,
         endStory: `"In fear of being besieged, a border was agreed upon. But to appease The Greatest, Crusaders brought more divisions 
                    to the border, just in case the opposers need special pontifical operation."`,
-        // Path is extended further, installed fences, borderposts, and border guards.
-		// On estonian side: cornflower and barnswallow, and a limestone "hill";
-		// Latvian side: oxeye daisy.;
         endImg: "border_est_liv.png"
     },
     {
