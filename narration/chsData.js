@@ -6,7 +6,6 @@ export const chsData = [
 		chsStory1: `You have entered the Eastern Lands.`,
 		chsStory2: `"Not to be rude, but I'm warning you: You're not welcome there."`,
 		chsImg: `ending_path.png`,
-		// Paved path road towards forest, and latvian guy standing next to it
 		nextChoice1: "end_0",
 		nextChoice2: "chsTemp(1)"
 	},
@@ -17,7 +16,6 @@ export const chsData = [
 		chsStory1: `For The Greatest, we shall liberate the land from pagans!`,
 		chsStory2: `"Only warned ya'. Good luck!"`,
 		chsImg: `end_of_path.png`,
-		// Path no longer visible; latvian guy standing closer, is darker and less focused
 		nextChoice1: "end_1",
 		nextChoice2: "end_2"
 	}

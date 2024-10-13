@@ -41,14 +41,14 @@ button.choice {
 	width: 90%;
 }
 
-.chs-pic-container {
+.chs-img-container {
 	align-items: center;
 	margin-top: 5rem;
 }
 
-.chs-pic {
-	height: 20rem;
-	width: 30rem;
+.chs-img {
+	height: 400px;
+	width: 600px;
 }
 
 .recent-choice {
