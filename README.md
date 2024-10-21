@@ -1,6 +1,9 @@
 # East-stonians - Demo
 
-A choice-based game about 13th Century Estonia, where the people were at war with conquerors.
+A choice-based RPG set in 13th-century Estonia.
+In this demo version, you play as a member of the Divinian Brothers of the Sword, attempting to conquer the Eastern Lands.
+Will the Crusade succeed, or will you be forced back to Saintnican?
+The wisest decisions are yours to make.
 
 ## Contents
 

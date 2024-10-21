@@ -16,11 +16,11 @@ button {
 }
 
 button:hover {
-	background: url("../img/ui/limestone_light.jpg");
+	background: url("../img/ui/buttons/limestone_light.jpg");
 }
 
 button:disabled {
-	background: url("../img/ui/limestone_dark.jpg");
+	background: url("../img/ui/buttons/limestone_dark.jpg");
 	color: transparent;
 	border-color: darkblue;
 }

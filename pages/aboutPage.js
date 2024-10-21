@@ -5,8 +5,10 @@ export function aboutPage() {
 	mainContent.innerHTML = `
 	<div class="title-page">
 		<div class="about-game">
-			Aestonia: First Contact is a choice-based RPG game, based in 13th century Estonian lands.
-			For this demo version of the game, you play as the Livonian Brothers of the Sword (under Saxons) trying to conquer all of East-stonian lands.
+			A choice-based RPG set in 13th-century Estonia.
+			In this demo version, you play as a commander of the Divinian Brothers of the Sword, attempting to conquer the Eastern Lands.
+			Will the Crusade succeed, or will you be forced back to Saintnican?
+			The wisest decisions are yours to make.
 		</div>
 		<div>
 			<button id="mm-btn">Back to Main Menu</button>
