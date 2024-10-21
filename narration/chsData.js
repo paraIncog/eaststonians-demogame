@@ -4,7 +4,7 @@ export const chsData = [
 		chsBtn1: `Let's go back to Riga!`,
 		chsBtn2: `That will not stand. Deus Vult!`,
 		chsStory1: `You have entered the Eastern Lands.`,
-		chsStory2: `"Not to be rude, but I'm warning you: You're not welcome there."`,
+		chsStory2: `"Not to be rude, I'm warning you: You're not welcome there."`,
 		chsImg: `ending_path.png`,
 		nextChoice1: "end_0",
 		nextChoice2: "chsTemp(1)"

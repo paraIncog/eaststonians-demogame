@@ -2,7 +2,7 @@
 	position: absolute;
 	display: flex;
 	flex-direction: row;
-	top: 20%;
+	top: 10%;
 	opacity: 0;
 	animation: fadeIn 2s forwards;
 	justify-content: center;
