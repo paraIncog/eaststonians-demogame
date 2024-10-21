@@ -27,3 +27,14 @@
 	font-size: 2rem;
 	color: rgba(255, 255, 255, 0.5);
 }
+
+.author-area {
+	font-family: 'Times New Roman', Times, serif;
+	position: absolute;
+	right: .1rem;
+	bottom: .2rem;
+	z-index: 97;
+	width: 100%;
+	display: flex;
+	justify-content: end;
+}
