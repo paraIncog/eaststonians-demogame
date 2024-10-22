@@ -16,7 +16,6 @@ export const endData = [
         endStory: `"But they did many. Firstly, God's army was wiped out; Secondly, in favor of true peace, the Balts joined together 
                    to push Crusaders back to Flatlands and Wildfire. And finally, t'was agreed upon forming a confederation, so that 
                    there would be no threats ever again."`,
-        // Map. Representing estonia: wolf, herrings in mouth. Representing latvia: hedgehog. Representing lithuania: white stork.
         endImg: "balt_conf.png"
     }
 ];
