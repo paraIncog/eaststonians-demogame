@@ -1,41 +1,33 @@
-# East-stonians - Demo
+<img src="./promo/east-stonians_promo1.png" alt="East-stonians - Demo" width="600px" height="300px">
+
 ## Version v0.4d
 
-A choice-based RPG set in 13th-century Estonia.
-In this demo version, you play as a member of the Divinian Brothers of the Sword, attempting to conquer the Eastern Lands.
-Will the Crusade succeed, or will you be forced back to Saintnican?
-The wisest decisions are yours to make.
-
-## Contents
+<p>A choice-based RPG set in 13th-century Eastern Europe.</p>
+<p>In this demo version, you play as a member of the Divinian Brothers of the Sword, attempting to conquer the Eastern Lands.</p>
+<p>Will the Crusade succeed, or will you be forced back to Saintnican? </p>
+<p>The wisest decisions are yours to make.</p>
 
 ## Installation
-
-Install mproject with npm
-
-```bash
-  npm install
-  cd gameetest
-```
-
-## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/paraIncog/gameetest.git
+  git clone https://github.com/paraIncog/eaststonians-demogame.git
 ```
 
-Go to the project directory
+Go to the project directory (if not yet in the directory)
 
 ```bash
-  cd gameetest
+  cd eaststonians-demogame
 ```
 
-Install dependencies
+Install dependencies with Node
 
 ```bash
   npm install
 ```
+
+## Run Locally
 
 Start the server
 
