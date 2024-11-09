@@ -8,11 +8,11 @@
 }
 
 #sprite {
-    width: 100px; /* Width of one frame */
-    height: 100px; /* Height of one frame */
+    width: 100px;
+    height: 100px;
     background-image: url('../img/sprites/estonian_knight_sprites2.png');
     background-repeat: no-repeat;
-    animation: play 1s steps(4) infinite; /* Adjust timing and steps */
+    animation: play 1s steps(4) infinite;
 }
 
 .loading-msg {
@@ -25,6 +25,6 @@
         background-position: 0px 0px;
     }
     to {
-        background-position: -400px 0px; /* - (width of sprite sheet) */
+        background-position: -400px 0px;
     }
 }

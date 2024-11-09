@@ -1,5 +1,5 @@
 import { endData } from "../../narration/endData.js";
-import { mainMenu } from "../mainMenu.js";  // Assuming return to menu after ending
+import { mainMenu } from "../mainMenu.js";
 
 export function endTemp(endID) {
     const end = endData[endID];

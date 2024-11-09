@@ -4,16 +4,6 @@
 	align-items: center;
 }
 
-#debug-pages {
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-}
-
-#debug-list {
-	display: flex;
-}
-
 #main-content {
 	width: 100%;
 }

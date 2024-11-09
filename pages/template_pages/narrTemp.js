@@ -1,5 +1,5 @@
 import { narrData } from "../../narration/narrData.js";
-import { chsTemp } from "./chsTemp.js";  // Import chsTemp to handle choices
+import { chsTemp } from "./chsTemp.js";
 
 export function narrTemp(narrID) {
     const narr = narrData[narrID];
