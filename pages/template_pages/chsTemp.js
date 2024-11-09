@@ -1,5 +1,6 @@
 import { chsData } from "../../narration/chsData.js";
-import { endTemp } from "./endTemp.js";  // Import endTemp for handling endings
+import { endTemp } from "./endTemp.js";
+import { applyGlobalButtonSounds } from "../../scripts/game.js";
 
 export function chsTemp(chsID) {
 	const chs = chsData[chsID];
@@ -60,10 +61,5 @@ export function chsTemp(chsID) {
             chsTemp(parseInt(chs.nextChoice2.match(/\d+/)[0]));  // Go to the next choice
         }
 	});
+	applyGlobalButtonSounds();
 }
-	
-// const choice1 = document.getElementById("choice1");
-// choice1.addEventListener("click", end_1);
-
-// const choice2 = document.getElementById("choice2");
-// choice2.addEventListener("click", end_2);

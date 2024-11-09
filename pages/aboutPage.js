@@ -1,4 +1,5 @@
 import { mainMenu } from "./mainMenu.js";
+import { applyGlobalButtonSounds } from "../scripts/game.js";
 
 export function aboutPage() {
 	const mainContent = document.getElementById("main-content");
@@ -18,4 +19,6 @@ export function aboutPage() {
 
 	const mmBtn = document.getElementById("mm-btn");
     mmBtn.addEventListener("click", mainMenu);
+
+	applyGlobalButtonSounds();
 }

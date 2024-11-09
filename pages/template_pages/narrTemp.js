@@ -1,5 +1,6 @@
 import { narrData } from "../../narration/narrData.js";
 import { chsTemp } from "./chsTemp.js";
+import { applyGlobalButtonSounds } from "../../scripts/game.js";
 
 export function narrTemp(narrID) {
     const narr = narrData[narrID];
@@ -28,4 +29,5 @@ export function narrTemp(narrID) {
           chsTemp(0);
         }
     });
+	applyGlobalButtonSounds();
 }

@@ -1,5 +1,6 @@
 import { aboutPage } from "./aboutPage.js";
 import { narrTemp } from "../pages/template_pages/narrTemp.js";
+import { applyGlobalButtonSounds } from "../scripts/game.js";
 
 export function mainMenu() {
 	const mainContent = document.getElementById("main-content");
@@ -25,4 +26,6 @@ export function mainMenu() {
 	playButton.addEventListener("click", () => narrTemp(0));  // Start from the first narrative
 	const aboutButton = document.getElementById("about-page");
     aboutButton.addEventListener("click", aboutPage);
+
+	applyGlobalButtonSounds();
 }

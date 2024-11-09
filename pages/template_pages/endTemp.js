@@ -1,5 +1,6 @@
 import { endData } from "../../narration/endData.js";
 import { mainMenu } from "../mainMenu.js";
+import { applyGlobalButtonSounds } from "../../scripts/game.js";
 
 export function endTemp(endID) {
     const end = endData[endID];
@@ -21,4 +22,5 @@ export function endTemp(endID) {
 
     const contBtn = document.getElementById("cont-btn");
     contBtn.addEventListener("click", mainMenu);  // Return to main menu after ending
+	applyGlobalButtonSounds();
 }
