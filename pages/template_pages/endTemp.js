@@ -1,6 +1,6 @@
 import { endData } from "../../narration/endData.js";
 import { mainMenu } from "../mainMenu.js";
-import { btnSnd } from "../../scripts/sounds.js";
+import { btnSnd, end0_Sound, end1_Sound, end2_Sound } from "../../scripts/sounds.js";
 
 export function endTemp(endID) {
     const end = endData[endID];
@@ -20,8 +20,25 @@ export function endTemp(endID) {
     </div>
     `;
 
+    // Choose and play the ending sound based on endID
+    let endingSound;
+    if (endID === 0) {
+        endingSound = end0_Sound();
+    } else if (endID === 1) {
+        endingSound = end1_Sound();
+    } else if (endID === 2) {
+        endingSound = end2_Sound();
+    }
+
+    // Add event listener to stop sound and return to main menu on button click
     const contBtn = document.getElementById("cont-btn");
-    contBtn.addEventListener("click", mainMenu);  // Return to main menu after ending
+    contBtn.addEventListener("click", () => {
+        if (endingSound) {
+            endingSound.pause();
+            endingSound.currentTime = 0; // Reset sound for next play
+        }
+        mainMenu();
+    });
 	
     btnSnd();
 }

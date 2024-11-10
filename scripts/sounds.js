@@ -26,3 +26,30 @@ export function mainMenuSound() {
 
     return mmSound;
 }
+
+export function end0_Sound() {
+    const endSound = new Audio('../audio/end-sfx/village_farm.mp3');
+    endSound.loop = true;
+    endSound.load();
+    endSound.play().catch(error => console.log("Error playing sound: ", error));
+
+    return endSound;
+}
+
+export function end1_Sound() {
+    const endSound = new Audio('../audio/end-sfx/ichhabmi.mp3');
+    endSound.loop = true;
+    endSound.load();
+    endSound.play().catch(error => console.log("Error playing sound: ", error));
+
+    return endSound;
+}
+
+export function end2_Sound() {
+    const endSound = new Audio('../audio/end-sfx/fire_crackle.mp3');
+    endSound.loop = true;
+    endSound.load();
+    endSound.play().catch(error => console.log("Error playing sound: ", error));
+
+    return endSound;
+}
