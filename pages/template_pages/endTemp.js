@@ -1,6 +1,6 @@
 import { endData } from "../../narration/endData.js";
 import { mainMenu } from "../mainMenu.js";
-import { applyGlobalButtonSounds } from "../../scripts/game.js";
+import { applyGlobalButtonSounds } from "../../scripts/sounds.js";
 
 export function endTemp(endID) {
     const end = endData[endID];

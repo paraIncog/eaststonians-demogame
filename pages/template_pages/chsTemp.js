@@ -1,6 +1,6 @@
 import { chsData } from "../../narration/chsData.js";
 import { endTemp } from "./endTemp.js";
-import { applyGlobalButtonSounds } from "../../scripts/game.js";
+import { applyGlobalButtonSounds } from "../../scripts/sounds.js";
 
 export function chsTemp(chsID) {
 	const chs = chsData[chsID];

@@ -1,6 +1,6 @@
 import { aboutPage } from "./aboutPage.js";
 import { narrTemp } from "../pages/template_pages/narrTemp.js";
-import { applyGlobalButtonSounds } from "../scripts/game.js";
+import { applyGlobalButtonSounds } from "../scripts/sounds.js";
 
 export function mainMenu() {
 	const mainContent = document.getElementById("main-content");

@@ -1,5 +1,5 @@
 import { mainMenu } from "./mainMenu.js";
-import { applyGlobalButtonSounds } from "../scripts/game.js";
+import { applyGlobalButtonSounds } from "../scripts/sounds.js";
 
 export function aboutPage() {
 	const mainContent = document.getElementById("main-content");
