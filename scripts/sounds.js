@@ -1,16 +1,23 @@
-function initButtonSounds() {
-    const sound = new Audio('../audio/ui/btn-click.mp3');
-    sound.load();
+function buttonSounds() {
+    const btnClickSound = new Audio('../audio/ui/btn-click.mp3');
+    const btnHoverSound = new Audio('../audio/ui/btn-hover.mp3');
+    btnClickSound.load();
 
     document.querySelectorAll('button').forEach(button => {
         button.addEventListener('click', () => {
-            sound.currentTime = 0; // Reset sound for repeated clicks
-            sound.play().catch(error => console.log("Error playing sound:", error));
+            btnClickSound.currentTime = 0;
+            btnClickSound.play().catch(error => console.log("Error playing sound:", error));
+        });
+    });
+
+    document.querySelectorAll('button').forEach(button => {
+        button.addEventListener('mouseover', () => {
+            btnHoverSound.currentTime = 0;
+            btnHoverSound.play().catch(error => console.log("Error playing sound:", error));
         });
     });
 }
 
-// Call this function whenever a new page is rendered
 export function applyGlobalButtonSounds() {
-    initButtonSounds();
+    buttonSounds();
 }

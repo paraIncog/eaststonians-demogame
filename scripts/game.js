@@ -3,6 +3,7 @@ import { loadingPage } from "../pages/loadingPage.js";
 import { mainMenu } from "../pages/mainMenu.js";
 import { aboutPage } from "../pages/aboutPage.js";
 
+// Game Pages
 import { narrTemp } from "../pages/template_pages/narrTemp.js"; // Narration
 import { chsTemp } from "../pages/template_pages/chsTemp.js"; // Choices
 import { endTemp } from "../pages/template_pages/endTemp.js"; // Endings

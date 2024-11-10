@@ -7,7 +7,7 @@ export const narrData = [
 	{
 		narrNr: 1,
 		narrImg: 'ancient_polit_map_bloody_pixel.png',
-	  	narrStory: `"But then, conquerors - the Kalamarians, Hoarders, and Teutons - looked toward the Baltics and saw a world of opportunities."`
+	  	narrStory: `"But then, conquerors - the Kalamarians, Hoarders, and Divinians - looked toward the Baltics and saw a world of opportunities."`
 	},
 	{
 		narrNr: 2,
