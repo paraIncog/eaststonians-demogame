@@ -1,6 +1,6 @@
 import { aboutPage } from "./aboutPage.js";
 import { narrTemp } from "../pages/template_pages/narrTemp.js";
-import { applyGlobalButtonSounds } from "../scripts/sounds.js";
+import { btnSnd } from "../scripts/sounds.js";
 
 export function mainMenu() {
 	const mainContent = document.getElementById("main-content");
@@ -27,5 +27,5 @@ export function mainMenu() {
 	const aboutButton = document.getElementById("about-page");
     aboutButton.addEventListener("click", aboutPage);
 
-	applyGlobalButtonSounds();
+	btnSnd();
 }

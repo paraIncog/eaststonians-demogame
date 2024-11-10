@@ -1,4 +1,4 @@
-function buttonSounds() {
+export function btnSnd() {
     const btnClickSound = new Audio('../audio/ui/btn-click.mp3');
     const btnHoverSound = new Audio('../audio/ui/btn-hover.mp3');
     btnClickSound.load();
@@ -18,6 +18,11 @@ function buttonSounds() {
     });
 }
 
-export function applyGlobalButtonSounds() {
-    buttonSounds();
+function mainMenuSound() {
+    const mmSound = new Audio('../audio/wind_winter.mp3');
+    mmSound.load();
 }
+
+// export function applyGlobalButtonSounds() {
+//     buttonSounds();
+// }

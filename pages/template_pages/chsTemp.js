@@ -1,6 +1,6 @@
 import { chsData } from "../../narration/chsData.js";
 import { endTemp } from "./endTemp.js";
-import { applyGlobalButtonSounds } from "../../scripts/sounds.js";
+import { btnSnd } from "../../scripts/sounds.js";
 
 export function chsTemp(chsID) {
 	const chs = chsData[chsID];
@@ -61,5 +61,6 @@ export function chsTemp(chsID) {
             chsTemp(parseInt(chs.nextChoice2.match(/\d+/)[0]));  // Go to the next choice
         }
 	});
-	applyGlobalButtonSounds();
+
+	btnSnd();
 }

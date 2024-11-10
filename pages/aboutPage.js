@@ -1,5 +1,5 @@
 import { mainMenu } from "./mainMenu.js";
-import { applyGlobalButtonSounds } from "../scripts/sounds.js";
+import { btnSnd } from "../scripts/sounds.js";
 
 export function aboutPage() {
 	const mainContent = document.getElementById("main-content");
@@ -20,5 +20,5 @@ export function aboutPage() {
 	const mmBtn = document.getElementById("mm-btn");
     mmBtn.addEventListener("click", mainMenu);
 
-	applyGlobalButtonSounds();
+	btnSnd();
 }
