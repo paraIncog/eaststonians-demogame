@@ -18,11 +18,11 @@ export function btnSnd() {
     });
 }
 
-function mainMenuSound() {
+export function mainMenuSound() {
     const mmSound = new Audio('../audio/wind_winter.mp3');
+    mmSound.loop = true;
     mmSound.load();
-}
+    mmSound.play().catch(error => console.log("Error playing sound: ", error));
 
-// export function applyGlobalButtonSounds() {
-//     buttonSounds();
-// }
+    return mmSound;
+}
