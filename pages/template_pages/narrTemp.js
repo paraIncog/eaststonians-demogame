@@ -16,9 +16,12 @@ export function narrTemp(narrID) {
         <div class="narr-cont-button">
           <button id="next-narr">Continue</button>
         </div>
+        <div id="skip-narr-btn" class="clickable">
+          Skip
+        </div>
       </div>
     </div>
-  `;
+    `;
 
     const nextNarr = document.getElementById("next-narr");
     nextNarr.addEventListener("click", () => {
@@ -28,6 +31,11 @@ export function narrTemp(narrID) {
         } else {
           chsTemp(0);
         }
+    });
+
+    const skipButton = document.getElementById("skip-narr-btn");
+    skipButton.addEventListener("click", () => {
+        chsTemp(0);
     });
 
 	btnSnd();
