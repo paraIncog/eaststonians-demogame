@@ -1,6 +1,6 @@
 import { endData } from "../../narration/endData.js";
 import { mainMenu } from "../mainMenu.js";
-import { btnSnd, end0_Sound, end1_Sound, end2_Sound } from "../../scripts/sounds.js";
+import { btnSnd, end0_Sound, end1_Sound, end2_Sound, playSound, stopSound } from "../../scripts/sounds.js";
 
 export function endTemp(endID) {
     const end = endData[endID];
@@ -30,13 +30,12 @@ export function endTemp(endID) {
         endingSound = end2_Sound();
     }
 
+    playSound(endingSound);
+
     // Add event listener to stop sound and return to main menu on button click
     const contBtn = document.getElementById("cont-btn");
     contBtn.addEventListener("click", () => {
-        if (endingSound) {
-            endingSound.pause();
-            endingSound.currentTime = 0; // Reset sound for next play
-        }
+        if (endingSound) stopSound(endingSound);
         mainMenu();
     });
 	

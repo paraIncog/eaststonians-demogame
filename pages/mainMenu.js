@@ -1,6 +1,6 @@
 import { aboutPage } from "./aboutPage.js";
 import { narrTemp } from "../pages/template_pages/narrTemp.js";
-import { btnSnd, mainMenuSound } from "../scripts/sounds.js";
+import { btnSnd, mainMenuSound, playSound, stopSound } from "../scripts/sounds.js";
 
 export function mainMenu() {
 	const mainContent = document.getElementById("main-content");
@@ -23,22 +23,20 @@ export function mainMenu() {
 	`;
 
 	const menuMusic = mainMenuSound();
-	
-	const playButton = document.getElementById("play-button");
+    playSound(menuMusic);
 
-	playButton.addEventListener("click", () => {
-		menuMusic.pause();
-		menuMusic.currentTime = 0;
-		narrTemp(0);
-	});  // Start from the first narrative
+    const playButton = document.getElementById("play-button");
 
-	const aboutButton = document.getElementById("about-page");
+    playButton.addEventListener("click", () => {
+        stopSound(menuMusic);
+        narrTemp(0);
+    });
 
+    const aboutButton = document.getElementById("about-page");
     aboutButton.addEventListener("click", () => {
-		menuMusic.pause();
-		menuMusic.currentTime = 0;
-		aboutPage();
-	});
+        stopSound(menuMusic);
+        aboutPage();
+    });
 
 	btnSnd();
 }
