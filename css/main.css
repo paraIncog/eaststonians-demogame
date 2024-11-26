@@ -18,6 +18,21 @@
 	color: rgba(255, 255, 255, 0.5);
 }
 
+.clickable {
+	cursor: pointer;
+}
+
+#sound-icon {
+	width: 100px;
+	height: 100px;
+}
+
+.options {
+	position: absolute;
+	left: .5rem;
+	bottom: .2rem;
+}
+
 .author-area {
 	font-family: 'Times New Roman', Times, serif;
 	position: absolute;
@@ -27,8 +42,4 @@
 	width: 100%;
 	display: flex;
 	justify-content: end;
-}
-
-.clickable {
-	cursor: pointer;
 }

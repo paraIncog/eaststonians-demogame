@@ -1,6 +1,6 @@
 <img src="./promo/east-stonians_promo2.png" alt="East-stonians - Demo" width="315px" height="250px">
 
-## Version v0.6.4d
+## Version v0.6.5d
 
 <p>A choice-based RPG set in 13th-century Eastern Europe.</p>
 <p>In this demo version, you play as a member of the Divinian Brothers of the Sword, attempting to conquer the Eastern Lands.</p>
