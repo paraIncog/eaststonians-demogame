@@ -3,8 +3,17 @@ let activeSounds = [];
 
 export function toggleSound() {
     soundEnabled = !soundEnabled;
-    const soundToggleButton = document.getElementById('sound-toggle');
-    soundToggleButton.textContent = `Sound: ${soundEnabled ? 'On' : 'Off'}`;
+    const soundIcon = document.getElementById('sound-icon');
+    // const soundToggleButton = document.getElementById('sound-toggle');
+    // soundToggleButton.textContent = `Sound: ${soundEnabled ? 'On' : 'Off'}`;
+
+    if (soundEnabled) {
+        soundIcon.src = '../img/ui/buttons/sound_on.png';
+        soundIcon.alt = 'Sound On';
+    } else {
+        soundIcon.src = '../img/ui/buttons/sound_off.png';
+        soundIcon.alt = 'Sound Off';
+    }
 
     // Pause or resume all active sounds based on toggle state
     activeSounds.forEach(audio => {
