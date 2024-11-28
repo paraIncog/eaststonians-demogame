@@ -15,7 +15,7 @@ export function endTemp(endID) {
             ${end.endStory}
         </div>
         <div class="end-img-container">
-            <img class="end-img" src="../../img/end_img/${end.endImg}" alt="${end.endImg}" />
+            <img class="end-img" src="/img/end_img/${end.endImg}" alt="${end.endImg}" />
         </div>
     </div>
     `;
