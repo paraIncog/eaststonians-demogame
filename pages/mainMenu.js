@@ -7,7 +7,7 @@ export function mainMenu() {
 	mainContent.innerHTML = `
 		<div class="title-page">
 			<div class="title-logo">
-				<img class="title-logo" src='/img/logo/east-stonians_logo_pixel.png' alt="east-stonians">
+				<img class="title-logo" src='./img/logo/east-stonians_logo_pixel.png' alt="east-stonians">
 			</div>
 
 			<div class="title-buttons">

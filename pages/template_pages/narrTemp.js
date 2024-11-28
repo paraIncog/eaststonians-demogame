@@ -9,7 +9,7 @@ export function narrTemp(narrID) {
     mainContent.innerHTML = `
     <div class="narr-page">
       <div class="narr-img-container">
-        <img src="/img/narr_img/${narr.narrImg}" alt="${narr.narrImg}" class="narr-img" />
+        <img src="./img/narr_img/${narr.narrImg}" alt="${narr.narrImg}" class="narr-img" />
       </div>
       <div class="narr-story">
         ${narr.narrStory}
