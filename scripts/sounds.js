@@ -4,18 +4,15 @@ let activeSounds = [];
 export function toggleSound() {
     soundEnabled = !soundEnabled;
     const soundIcon = document.getElementById('sound-icon');
-    // const soundToggleButton = document.getElementById('sound-toggle');
-    // soundToggleButton.textContent = `Sound: ${soundEnabled ? 'On' : 'Off'}`;
 
     if (soundEnabled) {
-        soundIcon.src = '../img/ui/buttons/sound_on.png';
+        soundIcon.src = './img/ui/buttons/sound_on.png';
         soundIcon.alt = 'Sound On';
     } else {
-        soundIcon.src = '../img/ui/buttons/sound_off.png';
+        soundIcon.src = './img/ui/buttons/sound_off.png';
         soundIcon.alt = 'Sound Off';
     }
 
-    // Pause or resume all active sounds based on toggle state
     activeSounds.forEach(audio => {
         if (soundEnabled) {
             audio.play().catch(error => console.log("Error resuming sound:", error));
@@ -57,33 +54,33 @@ export function btnSnd() {
 }
 
 export function mainMenuSound() {
-    const mmSound = new Audio('../audio/wind_winter.mp3');
+    const mmSound = new Audio('./audio/wind_winter.mp3');
     mmSound.loop = true;
     mmSound.load();
-    playSound(mmSound); // Use the playSound wrapper
+    playSound(mmSound);
     return mmSound;
 }
 
 export function end0_Sound() {
-    const endSound = new Audio('../audio/end-sfx/village_farm.mp3');
+    const endSound = new Audio('./audio/end-sfx/village_farm.mp3');
     endSound.loop = true;
     endSound.load();
-    playSound(endSound); // Use the playSound wrapper
+    playSound(endSound);
     return endSound;
 }
 
 export function end1_Sound() {
-    const endSound = new Audio('../audio/end-sfx/ichhabmi.mp3');
+    const endSound = new Audio('./audio/end-sfx/ichhabmi.mp3');
     endSound.loop = true;
     endSound.load();
-    playSound(endSound); // Use the playSound wrapper
+    playSound(endSound);
     return endSound;
 }
 
 export function end2_Sound() {
-    const endSound = new Audio('../audio/end-sfx/fire_crackle.mp3');
+    const endSound = new Audio('./audio/end-sfx/fire_crackle.mp3');
     endSound.loop = true;
     endSound.load();
-    playSound(endSound); // Use the playSound wrapper
+    playSound(endSound);
     return endSound;
 }
