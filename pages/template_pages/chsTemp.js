@@ -34,7 +34,7 @@ export function chsTemp(chsID) {
 				${chs.chsStory2}
 			</div>
 			<div class="chs-img-container">
-				<img src='../../img/chs_img/${chs.chsImg}' alt="${chs.chsImg}" class="chs-img" />
+				<img src="../../img/chs_img/${chs.chsImg}" alt="${chs.chsImg}" class="chs-img" />
 
 				<!-- Path no longer visible; latvian guy standing closer, is darker and less focused -->
 				<!-- <img class="chs-img" src="./img/chs_img/end_of_path.png" alt="No more Path" /> -->
