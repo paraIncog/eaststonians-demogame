@@ -1,6 +1,6 @@
 {
   "name": "eaststonians",
-  "version": "0.8",
+  "version": "0.8.1",
   "description": "A choice-based game about 13th Century Estonia, where the people were at war with conquerors.",
   "main": "script.js",
   "scripts": {

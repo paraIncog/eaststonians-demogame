@@ -43,8 +43,8 @@ export function stopSound(audio) {
 }
 
 export function btnSnd() {
-    const btnClickSound = new Audio('../audio/ui/btn-click.mp3');
-    const btnHoverSound = new Audio('../audio/ui/btn-hover.mp3');
+    const btnClickSound = new Audio('./audio/ui/btn-click.mp3');
+    const btnHoverSound = new Audio('./audio/ui/btn-hover.mp3');
     btnClickSound.load();
 
     document.querySelectorAll('button').forEach(button => {
